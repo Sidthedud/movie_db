@@ -39,10 +39,10 @@ The application follows the recommended **Clean Architecture** guide by Google, 
 
 ```mermaid
 graph TD
-    UI[UI Layer(Compose + ViewModel)] --> Domain[Domain Layer(UseCases + Models)]
-    Domain --> Data[Data Layer(Repository Implementation)]
-    Data --> Remote[Remote Source(Retrofit + TMDB API)]
-    Data --> Local[Local Source(Room Database)]
+    UI["UI Layer<br/>(Compose + ViewModel)"] --> Domain["Domain Layer<br/>(UseCases + Models)"]
+    Domain --> Data["Data Layer<br/>(Repository Implementation)"]
+    Data --> Remote["Remote Source<br/>(Retrofit + TMDB API)"]
+    Data --> Local["Local Source<br/>(Room Database)"]
 ```
 
 *   **UI Layer:** Handles user interaction and displays data using Jetpack Compose.
