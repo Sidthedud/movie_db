@@ -13,7 +13,6 @@
 /captures
 .externalNativeBuild
 .cxx
-
 # Heap dumps
 *.hprof
 

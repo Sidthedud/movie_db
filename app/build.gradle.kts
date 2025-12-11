@@ -65,6 +65,7 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+    implementation(libs.androidx.compose.material.icons.extended) // New: Material Icons Extended
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -80,6 +81,7 @@ dependencies {
     implementation(libs.okhttp.logging)
     // Background Work
     implementation(libs.coroutines.android)
+    implementation(libs.androidx.work.runtime.ktx) // New: WorkManager Runtime
     // Hilt
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
